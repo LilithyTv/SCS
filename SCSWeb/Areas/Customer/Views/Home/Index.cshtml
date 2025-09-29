@@ -1,5 +1,6 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages
+@{
+    ViewData["Title"] = "Skandinaviskt Städ och IT";
 }
 
 <section class="carousel-layer">
@@ -8,39 +9,37 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
                 <div class="carousel-inner" style="height: 300px;">
                     <div class="carousel-item active">
-                        <img src="~/images/banner1.png"
+                        <img src="~/images/floor_landing.png"
                              class="d-block w-100"
                              style="object-fit: cover; height: 100%; width: 100%"
                              alt="Business English Certificate">
 
                         <div class="carousel-caption d-md-block">
-                            <h5 class="text-white">Business English Certificate</h5>
-                            <p class="text-white">Boost your career opportunities with our internationally recognized Business English Certificate.</p>
+                            <h5 class="text-white">Endast 125 kr timmen med Rut-avdrag. Det har aldrig varit så billigt</h5>
+                            
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="~/images/banner2.jpg"
-                             class="d-block w-100" style="object-fit: cover; height: 100%;" alt="Academic English Certificate">
-                        <div class="carousel-caption carousel-caption-right d-md-block">
-                            <h5 class="text-white">Academic English Certificate</h5>
-                            <p class="text-white">Prepare for your studies abroad and enhance your academic language skills with our certificate.</p>
+                        <img src="~/images/banner_7.png"
+                        class="d-block w-100"
+                        style="object-fit: cover; height: 100%; width: 100%"
+                        alt="Business English Certificate">
+
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="text-white">Professionellt. Modernt. Ett litet företag med ett stort hjärta</h5>
+
                         </div>
+   
                     </div>
+               
+                </div>
                     
                 </div>
 
-                <!-- Carousel Controls -->
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="false"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
+            
             </div>
         </div>
-    </div>
+   
 </section>
 
 
@@ -48,9 +47,9 @@
 <!-- Call to Action -->
 <section>
       <div class="text-center py-5 bg-light">
-        <h3 class="display-5" style="color: #052742;">Ready to Enhance Your Teams Qualifications?</h3>
-        <p class="lead"> Start today to increase the value of your organization.</p>
-        <a href="https://www.scservices.se/contact/" class="custom-button">Get Started</a>
+        <h3 class="display-5" style="color: #052742;">Fint tvättade mattor. Rena fönster. Ett städat kök.</h3>
+        <p class="lead"> Drömmer du om ett rent hem? Boka privat städ idag! Du möter alltid samma trygga person som talar Svenska.</p>
+        <a href="https://www.scservices.se/contact/" class="custom-button">Boka in ett hembesök här!</a>
     </div>
 </section>
 
@@ -65,45 +64,45 @@
           
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="~/images/landinglady.png"
+                    <img src="~/images/first_small.png"
                          class="card-img-top"
                          alt="Bayley-4">
                     <div class="card-body">
-                        <h5 class="card-title">Bayley-4 is launched!</h5>
-                        <p class="card-text">Finally, you can order the new version of Bayley. The new version has updated norms, simplified protocol management, and digital support on Q-global.</p>
+                        <h5 class="card-title">Miljövänligt Städ</h5>
+                        <p class="card-text">Vi erbjuder miljövänligt städ där vi enbart använder utvalda miljömärkta produkter! Vårt städ är certifierat miljövänligt samt använder en specifik arbetsprocess baserad på vetenskapliga fynd blandat med erfarenhet. Det innebär i kort att vi använder minsta möjliga mängd svårlösta kemikalier och i större utsträckning använder vatten och ånga. Du är välkommen att ställa frågor även i person</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Read more about Bayley-4">Read more</a>
+                        <a href="#" class="custom-button-landing" aria-label="Läs mer om miljövänligt städ">Läs mer</a>
                     </div>
                 </div>
             </div>
           
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="~/images/landinglady.png"
+                    <img src="~/images/second_small.png"
                          class="card-img-top"
                          alt="Digital testing">
                     <div class="card-body">
-                        <h5 class="card-title">Digital testing</h5>
-                        <p class="card-text">Q-global and Q-interactive are our two digital platforms. These platforms facilitate the administration and scoring of tests and rating scales.</p>
+                        <h5 class="card-title">Grundlig tvätt av Sopkärl och Trädgård</h5>
+                        <p class="card-text">Du kan boka mer än bara städ! Vi har flera tillval som är möjliga att boka in under samma dag. Visste du t.ex. att med rut-avdrag så går det även att beställa trädgårdstjänster? Så om t.ex. ditt avfallskärl behöver städas eller om gräsmattan behövs klippas så går även detta att beställa till! </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Read more about Digital testing">Read more</a>
+                        <a href="#" class="custom-button-landing" aria-label="Läs mer om våra tjänster och konsulter">Läs mer</a>
                     </div>
                 </div>
             </div>
          
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="~/images/landinglady.png"
+                    <img src="~/images/third_small.png"
                          class="card-img-top"
                          alt="Training programs">
                     <div class="card-body">
-                        <h5 class="card-title">Our training programs</h5>
-                        <p class="card-text">We offer training programs for psychologists, speech therapists, and educators to deepen their knowledge or get inspiration on current topics.</p>
+                        <h5 class="card-title">Fönsterputs</h5>
+                        <p class="card-text">Det är inte alltid lätt att tvätta fönster och det behövs definitivt erfarenhet för att ge korrekt finnish. Vi använder de senaste verktygen inom städ. Det är samma verktyg som för industriellt städ och ingår i Städpaket Normal</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Read more about training programs">Read more</a>
+                        <a href="#" class="custom-button-landing" aria-label="Läs mer about training programs">Läs mer</a>
                     </div>
                 </div>
             </div>
@@ -112,30 +111,30 @@
 
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="https://www.pearsonclinical.se/media/Nordics/homepage2.jpg"
+                    <img src="~/images/fourth_small.png"
                          class="card-img-top"
                          alt="Articles and information">
                     <div class="card-body">
-                        <h5 class="card-title">Articles and information</h5>
-                        <p class="card-text">Find in-depth information about our testing tools, example reports, and case studies here.</p>
+                        <h5 class="card-title">Tvätt av mattor</h5>
+                        <p class="card-text">Tvätt av mattor med industrimedel för svårare fläckar och mild ångtvätt för veckostäd</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Read more about articles and information">Read more</a>
+                        <a href="#" class="custom-button-landing" aria-label="Läs mer about articles and information">Läs mer</a>
                     </div>
                 </div>
             </div>
          
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="https://www.pearsonclinical.se/media/kp/352x198/boy-writes-on-whiteboard.jpg"
+                    <img src="~/images/banner_8.png"
                          class="card-img-top"
                          alt="Age calculator">
                     <div class="card-body">
-                        <h5 class="card-title">Age calculator</h5>
-                        <p class="card-text">Use our calculator to quickly determine the patient's test age.</p>
+                        <h5 class="card-title">Enklare Städpaket</h5>
+                        <p class="card-text">Vi erbjuder ett snabbare städ där det ingår: Dammning, dammsugning, toalett, soptömning, och tvätt av ytor. Utan timpeng utan istället med beräknad kostnad och klart mellan 2-3 timmar</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Test the age calculator">Test here</a>
+                        <a href="#" class="custom-button-landing" aria-label="Test the age calculator">Läs mer</a>
                     </div>
                 </div>
             </div>
@@ -144,13 +143,13 @@
                 <div class="card h-100">
                     <img src="https://www.pearsonclinical.se/media/kp/352x198/man-sitting-in-window-with-laptop.jpg"
                          class="card-img-top"
-                         alt="Contact us">
+                         alt="Kontakta oss">
                     <div class="card-body">
-                        <h5 class="card-title">Contact us</h5>
-                        <p class="card-text">Reach out to our customer service or product specialists for assistance.</p>
+                        <h5 class="card-title">Kontakta oss</h5>
+                        <p class="card-text">Om det finns frågor eller ni vill boka tjänst per telefon ring mig på +460793371095</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="custom-button-landing" aria-label="Contact customer service">Contact us</a>
+                        <a href="#" class="custom-button-landing" aria-label="Contact customer service">Mejla oss här!</a>
                     </div>
                 </div>
             </div>

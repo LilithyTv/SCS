@@ -56,7 +56,7 @@
         {
             <div class="notification-bar text-center py-2" style="background-color: #dff0ed;">
                 <a href="#" class="text-decoration-none text-dark">
-                    Discount for bundles of certification and learning material <strong>Read more here.</strong>
+                    JUST NU 200KR RABATT OM DU ÄR ÖVER 65 ÅR <strong>  Boka in ett hembesök idag </strong>
                 </a>
             </div>
         }
@@ -74,7 +74,7 @@
                         @* Home ----------------------*@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">
-                                Home
+                                Startsida
                             </a>
                         </li>
 
@@ -82,17 +82,17 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown"
                                href="#" role="button" aria-expanded="false">
-                                Products
+                                Mina tjänster
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" asp-area="Customer" asp-controller="Product" asp-action="Index">
-                                        Products
+                                        Tjänster
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" asp-area="Customer" asp-controller="Product" asp-action="IndexList">
-                                        Product List
+                                        Product Lista
                                     </a>
                                 </li>
                             </ul>
@@ -102,20 +102,20 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown"
                                 href="#" role="button" aria-expanded="false">
-                                Bookings
+                                Boka tid
                             </a>
 
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" asp-area="Customer" asp-controller="Booking" asp-action="Calendar">
-                                        Certification Calendar
+                                        Linneas Kalender
                                     </a>
                                 </li>
                                 @if (SignInManager.IsSignedIn(User))
                                 {
                                     <li>
                                         <a class="dropdown-item" asp-area="Customer" asp-controller="Booking" asp-action="Index">
-                                            Bookings
+                                            Mina Bokningar
                                         </a>
                                     </li>
                                 }

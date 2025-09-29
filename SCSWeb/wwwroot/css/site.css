@@ -1,7 +1,10 @@
-﻿<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" >
+﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
 
 .carousel-caption h5 {
-    font-size: 28px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 .carousel-caption p {
@@ -159,10 +162,10 @@ body {
 
 .carousel-caption-right {
     left: auto;
-    right: 20%;
+    right: 40%;
     text-align: center;
     max-width: 40%;
-    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 
